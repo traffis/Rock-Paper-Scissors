@@ -35,11 +35,6 @@ function game() {
         console.log(playRound(userChoice, computerPlay()));
         console.log(`Player Score: ${playerScore} | Computer Score: ${computerScore}`);
     }
-    if (playerScore == 5) {
-        return "Congratulations! You win!";
-    } else {
-        return "Sorry, better luck next time.";
-    }
 }
 
 game();
